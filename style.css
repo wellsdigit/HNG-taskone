@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1 {
+    color: #333;
+}
+img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #0073e6;
+}
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+span{
+    display: inline-block;
+    padding: 3px 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0073e6;
+}
+
+p:nth-child(3){
+    font-size: larger;
+}
